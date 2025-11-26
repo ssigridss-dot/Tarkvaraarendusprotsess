@@ -1,0 +1,294 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Leht-1" id="xnYwvVeW2mfYEL2_LSdU">
+    <mxGraphModel dx="1317" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-1" target="w_ah2lmBndd1pDYoU2t6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-1" value="Algus&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-2" target="w_ah2lmBndd1pDYoU2t6-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-5" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_ah2lmBndd1pDYoU2t6-4">
+          <mxGeometry x="-0.0333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-7" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_ah2lmBndd1pDYoU2t6-6">
+          <mxGeometry x="-0.2" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-2" value="Kas kasutaja on sisestanud oma bitcoini koguse?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-8" target="w_ah2lmBndd1pDYoU2t6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-12" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_ah2lmBndd1pDYoU2t6-11">
+          <mxGeometry x="-0.4857" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-8" target="w_ah2lmBndd1pDYoU2t6-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-19" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_ah2lmBndd1pDYoU2t6-16">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-8" value="Kas kasutaja on valinud sihtvaluuta?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-9" value="Kuva kasutajale sõnum: &quot;Palun sisesta BTC kogus&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-10" value="Kuva kasutajale sõnum:&quot;Palun vali valuuta&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="210" as="sourcePoint" />
+            <mxPoint x="450" y="190" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <mxPoint x="450" y="332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-15" target="w_ah2lmBndd1pDYoU2t6-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-20" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_ah2lmBndd1pDYoU2t6-18">
+          <mxGeometry x="-0.04" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-15" value="Kas valitud valuuta on EUR?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-17" target="w_ah2lmBndd1pDYoU2t6-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-17" value="Kas valitud valuuta on USD?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="475" as="sourcePoint" />
+            <mxPoint x="290" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-22" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_ah2lmBndd1pDYoU2t6-21">
+          <mxGeometry x="0.0333" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="585" as="sourcePoint" />
+            <mxPoint x="280" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-24" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_ah2lmBndd1pDYoU2t6-23">
+          <mxGeometry x="-0.08" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-25" value="Esitame APIle päringu BTC hetkehinna teadasaamiseks EUR valuutas" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389" y="460" as="sourcePoint" />
+            <mxPoint x="450" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-27" value="Korruta sisestatud BTC kogus hetkese EUR hinnaga" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-28" value="Esitame APIle päringu BTC hetkehinna teadasaamiseks USD valuutas" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-29" value="Korruta sisestatud BTC kogus hetkese USD hinnaga" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-28" target="w_ah2lmBndd1pDYoU2t6-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="590" as="sourcePoint" />
+            <mxPoint x="430" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="w_ah2lmBndd1pDYoU2t6-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="330" as="sourcePoint" />
+            <mxPoint x="450" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-32" value="Kas arvutus teostati edukalt?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="890" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="590" as="sourcePoint" />
+            <mxPoint x="630" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-35" value="Kuva kasutajale sõnum: &quot;Tulemuse arvutamine ebaõnnestus, palun prooovi uuesti&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-39" target="w_ah2lmBndd1pDYoU2t6-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-39" value="Tulemus on aknas kuvatud" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-40" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-44" target="w_ah2lmBndd1pDYoU2t6-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-44" value="Kas valitud valuuta on GBP?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="660" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-49" value="Esitame APIle päringu BTC hetkehinna teadasaamiseks GBP valuutas" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="665" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-51" value="Korruta sisestatud BTC kogus hetkese GBP hinnaga" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="665" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="694.5" as="sourcePoint" />
+            <mxPoint x="630" y="694.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="700" as="sourcePoint" />
+            <mxPoint x="430" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="694.5" as="sourcePoint" />
+            <mxPoint x="270" y="694.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-59" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_ah2lmBndd1pDYoU2t6-57">
+          <mxGeometry x="-0.202" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-46" value="Kas valitud valuuta on EEK?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="780" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="850" as="sourcePoint" />
+            <mxPoint x="260" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="770" />
+              <mxPoint x="240" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-63" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_ah2lmBndd1pDYoU2t6-62">
+          <mxGeometry x="-0.4803" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-64" value="Korruta saadud tulemus läbi arvuga 15,6466" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-65" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.967;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="w_ah2lmBndd1pDYoU2t6-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="814.5" as="sourcePoint" />
+            <mxPoint x="510" y="814.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-66" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_ah2lmBndd1pDYoU2t6-65">
+          <mxGeometry x="0.0671" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-67" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="w_ah2lmBndd1pDYoU2t6-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="930" as="sourcePoint" />
+            <mxPoint x="720" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-68" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_ah2lmBndd1pDYoU2t6-67">
+          <mxGeometry x="-0.4744" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-69" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="629.5" y="850" as="sourcePoint" />
+            <mxPoint x="630" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-70" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_ah2lmBndd1pDYoU2t6-69">
+          <mxGeometry x="-0.0486" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-71" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="w_ah2lmBndd1pDYoU2t6-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="870" as="sourcePoint" />
+            <mxPoint x="630" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="474" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-73" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="629.5" y="960" as="sourcePoint" />
+            <mxPoint x="629.5" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-74" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_ah2lmBndd1pDYoU2t6-73">
+          <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_ah2lmBndd1pDYoU2t6-75" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="500" as="sourcePoint" />
+            <mxPoint x="450" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

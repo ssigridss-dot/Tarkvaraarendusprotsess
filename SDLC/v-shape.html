@@ -8,7 +8,85 @@
 <body>
     <h1>Mis on V-shape?</h1><br/>
     <p>
-        
-    </p>
+        V-shape ehk V-mudel on tarkvaraarendusprotsessi mudel, milles on arendamine ja testimine omavahel rangelt<br/>
+        seotud. Mudeli nimi tuleneb selle V-tähele sarnanevast diagrammikujutisest, mis moodustub arendus- ja<br/>
+        testimisfaasidest. V-mudel on traditsioonilise kosk-mudeli edasiarendus, kus on olulisel kohal testimise<br/>
+        planeerimine juba arendusprotsessi alguses. 
+    </p><br/><br/>
+    <h2>V-mudeli etapid</h2><br/> 
+    <p>
+        V-mudel koosneb kahest peamisest harust:
+        <ul>
+            <li>Vasak haru ehk arendusetapid: sisaldab nõuete analüüsi, süsteemi-, arhitektuuri- ja detailset disaini<br/>
+                ning kodeerimist.
+            </li>
+            <li>Parem haru ehk testimisetapid: sisaldab iga arendusfaasi testimist- vastuvõtu-, süsteemi-, integrattsiooni-<br/>
+                ja üksustestimine.
+            </li>
+        </ul>
+    </p><br/><br/>
+    <h2>Arendusmudeli joonis</h2><br/>
+    <p>
+        <img src="../pildid/v-shape.png"/><br/>
+    </p><br/><br/>
+    <h3>V-mudeli etappidest lähemalt</h3><br/>
+    <p>
+        <ul>
+            <li>
+                Nõuete analüüs: kogutakse kokku ja dokumenteeritakse arendatava süsteemi eesmärgid ja<br/>
+                kasutajate vajadused. Selle etapi lõpus toimub planeeritud vastuvõtutestimine.
+            </li>
+            <li>
+                Süsteemi disain: koostatakse süsteemi arhitektuuriraamistik- keskendutakse funktsionaalsusele,<br/>
+                ja üldisele raamistikule. Selle etapi lõpus toimub süsteemi testimine.
+            </li>
+            <li>
+                Detailne disain: täpsustatakse komponendid, moodulid, liidesed. Etapi lõpus toimub<br/> 
+                integratsioonitestimine.
+            </li>
+            <li>
+                Kodeerimine: detailse disaini alusel rakendatakse kood, millele järgneb üksustestimine.
+            </li>
+            <li>
+                Testimine: iga arengufaasi lõpus viiakse läbi test, et kinnitada selle etapi väljundi õigsust.
+            </li>
+        </ul>
+    </p><br/><br/>
+    <h3>V-mudeli oluliseim tunnusjoon...</h3><br/>
+    <p>
+        ... testimine! Antud mudeli kõige olulisemaks jooneks on pidev testimine peale igat etappi. See võimaldab<br/>
+        leida vead võimalikult vara, mis parandab oluliselt tarkvara kvaliteeti.
+    </p><br/><br/>
+    <h2>Mudeli head ja vead</h2><br/>
+    <p>
+        <table>
+            <thead>
+                <tr>
+                    <th>HEAD</th>
+                    <th>VEAD</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Selge struktuur ja kontroll</td>
+                    <td>Vähe paindlikkust</td>
+                </tr>
+                <tr>
+                    <td>Varajane planeeritud testimine</td>
+                    <td>Vajalikud detailsed ja stabiilsed nõuded</td>
+                </tr>
+                <tr>
+                    <td>Kõrge kvaliteet</td>
+                    <td>Raskem kaasata kasutajat varajases arengufaasis</td>
+                </tr>
+                <tr>
+                    <td>Lihtne haldada</td>
+                    <td>Võib olla aeglane</td>
+                </tr>
+            </tbody>
+        </table>
+    </p><br/><br/>
+    <a href="https://visuresolutions.com/et/almuse-juhend/v-mudelis%C3%BCsteemide-projekteerimine/">Allikas (Visure)</a>
+    <a href="https://vsevolodtsarev23.thkit.ee/wp/v-mudel-tarkvaraarenduses/">Allikas (Vselovod)</a>
 </body>
 </html>

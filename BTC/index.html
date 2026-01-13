@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>BTC kalkulaator</title>
 </head>
 <body>
     <!-- Tunnis tehtud bitcoin kalkulaatori programmi kohta tehke oma ainemappi eraldi saidi osa "BTC" kus on "index.html"
@@ -12,10 +12,19 @@
      Ja link bitcoin kalkulaatori enda reposse
      
      Esitlus: Esitage link osale oma github pages saidil.-->
-     <h1>Minu bitcoin kalkulaator</h1></br></br>
-     <p>
+    <h1>Minu bitcoin kalkulaator</h1></br>
+    <p>
         Minu bitcoin kalkulaator võtab kasutaja sisestatud bitcoini koguse ja arvutab selle hinna kasutaja</br>
         sisestatud valuutas(EUR, USD, GBP, EEK)
-     </p>
+    </p><br/>
+    <h3>Kalkulaatori tööprotsess:</h3></br>
+    <p>
+        Kalkulaator konverteerib kasutaja sisestatud BTC koguse valitud valuutasse. Valikus on neli valuutat: EUR, USD, GBP ja EEK.<br/>
+        Esiteks kontrollib programm kas kõik vajalikud väljad (bitcoini kogus ja sihtvaluuta) on täidetud. Probleemi korral</br>
+        väljastab veateate, et mõni sisend on puudu. Kui kõik sisendid on olemas, siis kalkulaator esitab päringu bitcoin API</br>
+        lehele <a href="https://developers.coindesk.com/">COINDESK</a> valuuta väärtuse kohta valitud valuutas välja arvatud EEK.</br>
+        EEK puhul võetakse API'ist EUR'i väärtus ja korrutatakse 15,6466'ga. Programm kalkuleerib kokku API andmed valuuta osas</br>
+        ning esitab need akna all vasakus nurgas.
+    </p></br></br>
 </body>
 </html>

@@ -6,6 +6,55 @@
     <title>Olemidiagramm</title>
 </head>
 <body>
-    
+    <h2>Mis on olemidiagramm?</h2><br/>
+    <p>
+        Olemidiagramm on diagrammitüüp, mida kasutatakse andmebaasistruktuuri kirjeldamiseks. See näitab</br>
+        millised olemid (tabelid/objektid) süsteemis on, millised on nende atribuudid (väljad/veerud) ja kuidas</br>
+        need omavahel seotud on ehk teisisõnu olemidiagramm näitab andmebaasi loogilist ülesehitust.</br>
+    </p>
+    <h2>Kus neid kasutatakse?</h2><br/>
+    <p>        
+        Olemidiagramme kasutatakse peamiselt andmebaaside kujundamiseks või silumiseks tarkvaratehnika,<br/>
+        äriinfosüsteemide, hariduse ja teaduse valdkonnas.
+    </p>
+        Olemidiagrammi algne esitus võib olla lihtsustatud, kus olemi ristkülikus on ainult semantiline nimetus.<br/>
+        Seda kutsutakse infoloogiliseks mudeliks.<br/>
+        Peale seda viiakse diagramm andmeloogilisele tasemele. Selle käigus projekteeritakse olemite sisemine struktuur,<br/>
+        mis koosneb olemi omadustest (atribuutidest).<br/>
+        Selleks, et andmeloogilise mudeli alusel luua reaalselt eksisteeriv andmebaas, tuleb andmeloogilise kirjelduse
+        alusel teha füüsiline modelleerimine.<br/>
+        Füüsilise modelleerimise käigus lisatakse andmeloogilisele mudelile kirjeldused:
+        <ul>
+            <li>olemitele tabelite nimed, mille all olemite kirjelduse järgi luuakse andmebaasitabelid</li>
+            <li>olemitele seoste võtmete kirjeldused (primaarvõtmed ja välisvõtmed)</li>
+            <li>olemitele indeksite kirjeldused</li>
+            <li>olemite atribuutidele veergude nimed, mille all olemite kirjelduse järgi luuakse andmebaasi tabelite
+                veerud</li>
+            <li>olemite atribuutidele andmetüübid, pikkused ja NULL NOT NULL piirangud</li>
+        </ul>
+    </p>
+    <h2>Diagrammi elemendid</h2><br/>
+    <p>        
+        Olemidiagrammil on mitmeid kujutamisversioone, siinkohal tooksin välja kõige enim kasutatava meetodi<br/>
+        IE (Information Engineering).<br/>
+        Olemi vahelised seosed esitatakse joontega mille otstel on kindla tähendusega kujutised: üks, mitu, null/ei ühtegi.<br/>
+    </p>
+    <h2>Võtmed</h2>
+    <p>
+        <ul>
+            <li>Primaarvõti (Primary Key) -  on olemi tabeli unikaalne tunnus (_ID), mille järgi teda tuvastada.<br/>
+                Kui kaks tabelit on andmebaasis omavahel seotud, siis viiakse suhte "üks" otsas oleva tabeli primaarvõti<br/>
+                üle suhte "mitu" poolses olevasse tabelisse. Enda tabelis on _ID unikaalne, siis kõrval tabelis mitte.</li>
+            <li>Välisvõti (Foreign Key) - see on teise tabelisse üle kantud tunnus, mille abil tuvastatakse kahe tabeli<br/>
+                vaheline suhe.</li>
+            <li>Lihtvõti (Simple Key) - kui võti sisaldab ühte atribuuti</li>
+            <li>Liitvõti (Composite Key) - kui võti sisaldab mitu atribuuti</li>
+        </ul><br/>
+        Olemidiagrammi näidis:
+        <img src="../pildid/100518_0621_ERDiagramTu2_01.webp">
+        <img src="../pildid/100518_0621_ERDiagramTu1.webp">
+    </p>
+    <a href="https://knowledgealpha.wordpress.com/2020/01/06/entity-relationship-models/">ERD-diagramm</a>
+    <a href="https://www.guru99.com/et/er-diagram-tutorial-dbms.html">ERD-diagramm (guru99)</a>
 </body>
 </html>

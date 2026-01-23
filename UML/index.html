@@ -49,19 +49,90 @@
     </p>
     <h1>Mõningaid UML liike</h1>
     <h2>Kasutuslooskeem</h2>
-    <!-- kirjuta kodus kasutuslooskeemi kohta -->
-    <h2>Klassidiagramm</h2>
-    <!-- kirjuta kodus kasutuslooskeemi kohta -->
-    <h2>Jadaskeem</h2>
-    <!-- kirjuta kodus kasutuslooskeemi kohta -->
-    <h2>Olekuskeem</h2>
-    <!-- kirjuta kodus kasutuslooskeemi kohta -->
-    <h2> X </h2>
     <p>
-        <!-- kirjuta kodus kasutuslooskeemi kohta -->
-        Lühikirjeldus.
-        Kujundite/joonte lahtiseletus
-        Üks näidisjoonis.
+        See on käitumist näitav diagramm, mis annab visuaalse ülevaate süsteemi funktsioonidest ning osapooltest (ka<br/>
+        funktsioonid) kes millise süsteemi osaga suhtleb. Skeem koosneb ristkülikust (süsteem), ovaalidest (funktsioonid)<br/>
+        ja kriipsujukudest ("näitleja" ehk kasutaja) ning osutavatest joontest (suhte nooled).<br/>
+        Skeemi näidis:
+        <img src="../pildid/Use_case_restaurant_model.png"/>
+    </p>
+    <h2>Klassidiagramm</h2>
+    <P>
+        See on levinud objektorienteeritud meetod, mida kasutatakse süsteemi kirjeldamiseks. Skeem
+        kirjeldab süsteemis olevate objektide tüüpe ja nende vahel eksisteerivaid erinevaid staatilisi seoseid.<br/>
+        Skeemil kujutatakse objekte ristkülikuna mis sisaldab endas: klassi nime, atribuute ning operatsioone.
+        Objektide vahel kujutatakse seoseid erinevate joonte/noolte abil. Kolm peamist seost on järgnevad:        
+        <ul>
+            <li>Ühendus (association) - Näitab klasside vahelist seost.</li>
+            <li>Pärimine (Inheritance) - Näitab mis klassist pärineb. Alamklass pärib peaklassi omadused ja
+                käitumised.</li>
+            <li>Koondamine (Aggregation) - Näitab suhet, kus üks klass(tervik) sisaldab teist klassi
+                või koosneb sellest.</li>
+        </ul>
+        Skeemi näidis:
+        <img src="../pildid/Class-Diagram-example.webp"/>
+    </P>
+    <h2>Jadaskeem</h2>
+    <p>
+        See on joonis, mis näitab objektidevahelist koostööd süsteemis mingi aja jooksul.<br/>
+        Jadaskeem võib koosneda järgnevatest osadest:
+        <ul>
+            <li>Näitleja (Actor) - Süsteemi kasutav isik (süsteemi väline).</li>
+            <li>Elujoon (Lifeline) - Süsteemi olulised osad.</li>
+            <li>Sõnumid (Messages) - Pidevjoonega nool millel "sõnum" või tegevus, esindab objektide või osade
+                vahelist suhtlust</li>
+            <li>Loo sõnum (Create message) - Katkendjoonega nooled koos sõnumiga "Create", mõeldud millegi uue
+                loomiseks.</li>
+            <li>Kustuta sõnum (Delete Message) - Pidevjoonega nool, mis lõpeb X-ga. Mõeldud juhuks kui objektilt
+                vabastatakse mälu või see süsteemis hävitatakse.</li>
+            <li>Sõnum endale (Self Message) - Tagasipöörav nool, juhtudeks, kus objekt peab endale ise sõnumi
+                saatma.</li>
+            <li>Vastus sõnum (Reply Message) - Punktiirjoone avatud noolepeaga, kasutatakse et näidata vastuse
+                saatmist vastuvõtjalt küsimuse saatjale.</li>
+            <li>Leitud sõnum (Found Message) - Pidevjoonega nool lõpp-punktist (täidetud ring), kasutatakse
+                juhuks kus tundmatu allikas saadab sõnumi.</li>
+            <li>Kadunud sõnum (Lost Message) - Pidevjoonega nool osutab lõpp-punkti, kasutatakse juhul kui sõnumi
+                saaja ei ole süsteemile teada.</li>
+            <li>Kaitsmed (Guards) - Tingimus tekst nooltel. Kasutatakse, et näidata, piiranguid.</li>
+        </ul>
+        skeemi näidis:
+        <img src="../pildid/Sequence-diagram-1.avif">
+    </p>
+    <h2>Olekuskeem</h2>
+    <p>
+        See diagrammitüüp kirjeldab süsteemide käitumist. Olekuskeemidel on kujutatud lubatud olekuid ja</br>
+        üleminekuid ning sündmusi, mis neid üleminekuid mõjutavad. Olekuskeem aitab näha objektide kogu</br>
+        elutsüklit ja mõista olekupõhiseid süsteeme.<br/>
+        Skeemi osad:
+            <ul>
+                <li>Algne olek (Initial state) - Must täpp</li>
+                <li>Üleminek (Transition) - Pidevjoonega nool</li>
+                <li>Olek (State) - Ristkülik, olek kahe ülemineku vahel</li>
+                <Li>Lõppolek (Final state) - Rõnga sees must täpp</Li>
+            </ul>
+        Skeemi näidis:
+        <img src="../pildid/state-diagram.avif">
+    </p>
+    <h2>Levitusskeem</h2>
+    <p>
+        See on diagrammitüüp, mis kirjeldab, kuidas tarkvarasüsteem on füüsiliselt paigutatud ja käivitatud - st</br>
+        millistes seadmetes/serverites eri osad töötavad ja kuidas need omavahel suhtlevad.</br>
+        Skeemi osad:
+            <ul>
+                <li>Sõlmed (nodes) - arvutid, serverid, telefonid, pilveteenused</li>
+                <li>Rakendused/komponendid - mis tarkvara kus töötab</li>
+                <li>Ühendused - võrk, API, HTTP, andmebaasiühendus jt</li>
+                <li>Andmebaasid</li>
+            </ul>
+        Skeemi näidis:
+        <img src="../pildid/levitusskeem_pilt.png">
     </p><br/><br/>
+    <a href="https://en.wikipedia.org/wiki/Unified_Modeling_Language">UML (wikipedia)</a>
+    <a href="https://www.geeksforgeeks.org/system-design/unified-modeling-language-uml-introduction/">UML (geeksforgeeks)</a>
+    <a href="https://en.wikipedia.org/wiki/Use_case_diagram">Kasutuslooskeem (wikipedia)</a>
+    <a href="https://www.geeksforgeeks.org/system-design/unified-modeling-language-uml-class-diagrams/">Klassidiagramm</a>
+    <a href="https://blog.logrocket.com/product-management/sequence-diagram/">Jadaskeem</a>
+    <a href="https://t2informatik.de/en/smartpedia/state-diagram/">Olekudiagramm</a>
+    <a href="https://slidebazaar.com/items/product-development-process-diagram/">Levitusskeem</a>
 </body>
 </html>

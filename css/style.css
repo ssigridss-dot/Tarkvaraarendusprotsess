@@ -1,0 +1,106 @@
+/* ABSOLUUTNE RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* KEHA JA TAUST */
+html, body {
+    min-height: 100%;
+    background-color: rgb(238, 246, 241); /* ROHEKAS TAUST */
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0); /* KOGU TEKST MUST */
+    padding-top: 20px;
+}
+
+/* SISU */
+.content {
+    max-width: 80ch;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+/* PEALKIRJAD – MUST */
+h1,
+h2,
+h3 {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+/* LINGID – MUST */
+a {
+    display: block;
+    margin: 6px 0;
+    color: rgb(0, 90, 60);        /* TUMEROHELINE */
+    text-decoration: underline; /* ALLAJOONITUD */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+ul {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+li {
+    margin: 6px 0;
+}
+
+/* TABEL */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    border: 1px solid rgb(200, 220, 210);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+/* PILT */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* TAGASI NUPP */
+.back-button {
+    display: inline-block;
+    margin: 20px;
+    padding: 6px 14px;
+    background-color: rgb(214, 237, 226);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.back-button:hover {
+    background-color: rgb(197, 228, 214);
+}
+
